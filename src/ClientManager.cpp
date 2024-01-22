@@ -13,7 +13,7 @@ void	ClientManager::handleRequest(int fd, std::string message)
 		this->_users[fd] = new User(fd);
 
 	this->_parser.parse(message);
-	this->_invoker.setCommand(this, fd, this->_parser, this->_users, this->_channels);
+	this->_invoker.setCommand(this->_users[fd], fd, this->_parser, this->_users, this->_channels);
 	numeric = this->_invoker.executeCommand();
 	
 	//Class for replies???

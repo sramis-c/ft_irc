@@ -1,10 +1,11 @@
 #include <string>
 #include <iostream>
 #include <cstdlib>
+#include "Target.hpp"
 
 #pragma once
 
-class User
+class User : public ITarget
 {
 	private:
 		int			_id;
@@ -24,6 +25,8 @@ class User
 		~User();
 
 		User&	operator=(const User& rhs);
+
+		void		modifyAttributes(const AttributeType& attribute, std::string data);
 
 		//Getters
 		int			getID(void) const;

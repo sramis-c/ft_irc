@@ -34,6 +34,25 @@ User&	User::operator=(const User& rhs)
 	return(*this);
 }
 
+void		User::modifyAttributes(const AttributeType& attribute, std::string data)
+{
+	switch(attribute)
+	{
+		case username:
+			this->setUsername(data);
+			break;
+		case nickname:
+			this->setNickname(data);
+			break;
+		case realname:
+			this->setRealname(data);
+			break;
+		default:
+			break;
+	}
+}
+
+
 //Getters
 int			User::getID(void) const
 {

@@ -6,7 +6,9 @@ NickCommand::~NickCommand()
 
 int		NickCommand::execute()
 {
-	this->_user->setNickname(this->_parameters[0]);
+	this->_targets[0]->modifyAttributes(nickname, this->_parameters[0]);
+
+	//this->_user->setNickname(this->_parameters[0]);
 
 	/*if (this->_user.isWelcomed() == false)
 	{

@@ -7,40 +7,38 @@ CommandInvoker::~CommandInvoker()
 {
 }
 
-void	CommandInvoker::setCommand(IChannelObserver* client,int fd, CommandParser& parser, std::map<int, User*>& users, std::map<std::string, Channel*>& channels)
+void	CommandInvoker::setCommand(ITarget* user,int fd, CommandParser& parser, std::map<int, User*>& users, std::map<std::string, Channel*>& channels)
 {
+	(void)channels;
 	std::vector<std::string> parameters = parser.getParameters();
 	std::string message = parser.getMessage();
 	switch(parser.getCommand())
 	{
 		case USER:
 		{
-			this->_command = new UserCommand(users[fd], parameters, message);
+			this->_command = new UserCommand(parameters, message);
 			break;
 		}
 		case NICK:
 		{
-			this->_command = new NickCommand(users[fd], parameters, message);
+			this->_command = new NickCommand(parameters, message);
 			break;
 		}
 		case PRIVMSG:
 		{
-			this->_command = new PrivMsgCommand(users[fd], parameters, message);
-			PrivMsgCommand* cmd = dynamic_cast<PrivMsgCommand*>(this->_command);
-			cmd->setTarget(findTarget(parameters[0], users));
+			this->_targets.push_back(parameters[0]);
+			this->_command = new PrivMsgCommand(parameters, message);
 			break;
 		}
 		case JOIN:
 		{
-			this->_command = new JoinCommand(users[fd], parameters, message);
-			JoinCommand* cmd = dynamic_cast<JoinCommand*>(this->_command);
-			cmd->setTarget(findTarget(parameters[0], channels));
-			cmd->setObserver(client);
+			this->_command = new JoinCommand(parameters, message);
+			this->_targets.push_back(parameters[0]);
 			break;
 		}
 		case UNKNOWN: //TODO
 		{
-			this->_command = new UnknownCommand(users[fd], parameters, message);
+			this->_command = new UnknownCommand(parameters, message);
 			break;
 		}
 	}

@@ -11,14 +11,14 @@
 class Command
 {
 	public:
-		Command(User* user, std::vector<std::string> parameters, std::string message) : _user(user), _parameters(parameters), _message(message){};
+		Command(std::vector<std::string> parameters, std::string message) : _parameters(parameters), _message(message){};
 		virtual ~Command(){};
 
 		virtual int		execute() = 0;
 		virtual int		validate() = 0;
-	
+
 	protected:
-		User*						_user;
+		std::vector<ITarget*>		_targets;
 		std::vector<std::string>	_parameters;
 		std::string					_message;
 };
@@ -28,7 +28,7 @@ class UserCommand : public Command
 	private:
 
 	public:
-		UserCommand(User* user, std::vector<std::string> parameters, std::string message) : Command(user, parameters, message){};
+		UserCommand(std::vector<std::string> parameters, std::string message) : Command(parameters, message){};
 		~UserCommand();
 
 		int		execute();
@@ -40,7 +40,7 @@ class NickCommand : public Command
 	private:
 
 	public:
-		NickCommand(User* user, std::vector<std::string> parameters, std::string message) : Command(user, parameters, message){};
+		NickCommand(std::vector<std::string> parameters, std::string message) : Command(parameters, message){};
 		~NickCommand();
 
 		int		execute();
@@ -50,32 +50,27 @@ class NickCommand : public Command
 class PrivMsgCommand : public Command
 {
 	private:
-		User*		_target;
 
 	public:
-		PrivMsgCommand(User* user, std::vector<std::string> parameters, std::string message);
+		PrivMsgCommand(std::vector<std::string> parameters, std::string message);
 		~PrivMsgCommand();
 
 		int		execute();
 		int		validate();
-
-		void	setTarget(User* target);
 };
 
 class JoinCommand : public Command
 {
 	private:
-		Channel*		_target;
 		IChannelObserver*	_observer;
 
 	public:
-		JoinCommand(User* user, std::vector<std::string> parameters, std::string message) : Command(user, parameters, message){};
+		JoinCommand(std::vector<std::string> parameters, std::string message) : Command(parameters, message){};
 		~JoinCommand();
 
 		int	execute();
 		int	validate();
 
-		void	setTarget(Channel* target);
 		void	setObserver(IChannelObserver* observer);
 };
 
@@ -85,7 +80,7 @@ class UnknownCommand : public Command
 	private:
 
 	public:
-		UnknownCommand(User* user, std::vector<std::string> parameters, std::string message) : Command(user, parameters, message){};
+		UnknownCommand(std::vector<std::string> parameters, std::string message) : Command(parameters, message){};
 		int		execute(){std::cout << "UNKNOWN command" << std::endl; return(0);} //TODO
 		int		validate(){return(0);} //TODO
 };
