@@ -1,0 +1,52 @@
+2024-01-17 10:51:45		New key binding (context "default"): meta-B => /buflist toggle
+2024-01-17 10:51:45		New key binding (context "default"): meta-OP => /bar scroll buflist * -100%
+2024-01-17 10:51:45		New key binding (context "default"): meta2-11~ => /bar scroll buflist * -100%
+2024-01-17 10:51:45		New key binding (context "default"): meta-OQ => /bar scroll buflist * +100%
+2024-01-17 10:51:45		New key binding (context "default"): meta2-12~ => /bar scroll buflist * +100%
+2024-01-17 10:51:45		New key binding (context "default"): meta2-11^ => /bar scroll buflist * -100%
+2024-01-17 10:51:45		New key binding (context "default"): meta2-1;5P => /bar scroll buflist * -100%
+2024-01-17 10:51:45		New key binding (context "default"): meta2-12^ => /bar scroll buflist * +100%
+2024-01-17 10:51:45		New key binding (context "default"): meta2-1;5Q => /bar scroll buflist * +100%
+2024-01-17 10:51:45		New key binding (context "default"): meta-meta-OP => /bar scroll buflist * b
+2024-01-17 10:51:45		New key binding (context "default"): meta-meta2-11~ => /bar scroll buflist * b
+2024-01-17 10:51:45		New key binding (context "default"): meta2-1;3P => /bar scroll buflist * b
+2024-01-17 10:51:45		New key binding (context "default"): meta-meta-OQ => /bar scroll buflist * e
+2024-01-17 10:51:45		New key binding (context "default"): meta-meta2-12~ => /bar scroll buflist * e
+2024-01-17 10:51:45		New key binding (context "default"): meta2-1;3Q => /bar scroll buflist * e
+2024-01-17 10:51:45		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, typing, xfer
+2024-01-17 10:51:52		No server
+2024-01-17 10:52:07		irc: server added: irc
+2024-01-17 10:52:38		Option changed: irc.server.irc.nicks = "OtherTest"  (default if null: "srctwr,srctwr1,srctwr2,srctwr3,srctwr4")
+2024-01-17 10:52:57		Option changed: irc.server.irc.username = "John"  (default if null: "srctwr")
+2024-01-17 10:53:01		Options saved to sec.conf
+2024-01-17 10:53:01		Options saved to weechat.conf
+2024-01-17 10:53:01		Options saved to plugins.conf
+2024-01-17 10:53:01		Options saved to charset.conf
+2024-01-17 10:53:01		Options saved to logger.conf
+2024-01-17 10:53:01		Options saved to exec.conf
+2024-01-17 10:53:01		Options saved to trigger.conf
+2024-01-17 10:53:01		Options saved to spell.conf
+2024-01-17 10:53:01		Options saved to alias.conf
+2024-01-17 10:53:01		Options saved to buflist.conf
+2024-01-17 10:53:01		Options saved to fifo.conf
+2024-01-17 10:53:01		Options saved to typing.conf
+2024-01-17 10:53:01		Options saved to xfer.conf
+2024-01-17 10:53:01		Options saved to irc.conf
+2024-01-17 10:53:01		Options saved to relay.conf
+2024-01-17 10:53:01		Options saved to perl.conf
+2024-01-17 10:53:01		Options saved to python.conf
+2024-01-17 10:53:01		Options saved to ruby.conf
+2024-01-17 10:53:01		Options saved to script.conf
+2024-01-17 10:53:01		Options saved to fset.conf
+2024-01-17 14:20:44		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, typing, xfer
+2024-01-17 14:20:51		All servers:
+2024-01-17 14:20:51		   irc
+2024-01-17 20:11:37		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, typing, xfer
+2024-01-17 20:12:22		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, typing, xfer
+2024-01-18 08:58:42		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, typing, xfer
+2024-01-18 08:59:04	=!=	Unknown command "/privmsg" (type /help for help)
+2024-01-18 11:54:50	=!=	irc: already connected to server "irc"!
+2024-01-18 12:02:13		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, typing, xfer
+2024-01-18 12:03:09	=!=	Too few arguments for command "/msg" (help on command: /help msg)
+2024-01-20 13:07:12		Plugins loaded: alias, buflist, charset, exec, fifo, fset, irc, logger, perl, python, relay, ruby, script, spell, trigger, typing, xfer
+2024-01-20 13:07:54	=!=	Unknown command "/msh" (type /help for help)

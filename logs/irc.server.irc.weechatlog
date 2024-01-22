@@ -1,0 +1,187 @@
+2024-01-17 14:20:55	--	irc: connecting to server localhost/6667...
+2024-01-17 14:20:55	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 14:20:55	--	Welcome to the <network> Network, <nick>[!<user>@<host>]
+2024-01-17 14:22:57	--	MSG(Test): adios
+2024-01-17 14:23:14	--	irc: disconnected from server
+2024-01-17 14:24:07	--	irc: connecting to server localhost/6667...
+2024-01-17 14:24:07	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 14:24:07	--	Welcome to the <network> Network, <nick>[!<user>@<host>]
+2024-01-17 14:24:16	=!=	irc: command "holaaaaaaaaaaa" not found: "holaaaaaaaaaaa"
+2024-01-17 14:24:41	--	MSG(Test): adios
+2024-01-17 14:24:45	--	MSG(Test): adios
+2024-01-17 14:24:51	--	MSG(OtherTest): adios
+2024-01-17 14:24:51	=!=	irc: command "holaaaaaaaaaaa" not found: "holaaaaaaaaaaa"
+2024-01-17 14:25:24	--	MSG(Test): adios
+2024-01-17 14:25:32	=!=	irc: command "holaaaaaaaaaaa" not found: "holaaaaaaaaaaa"
+2024-01-17 14:25:34	=!=	irc: command "holaaaaaaaaaaa" not found: "holaaaaaaaaaaa"
+2024-01-17 14:25:36	=!=	irc: command "holaaaaaaaaaaa" not found: "holaaaaaaaaaaa"
+2024-01-17 14:25:38	=!=	irc: command "holaaaaaaaaaaa" not found: "holaaaaaaaaaaa"
+2024-01-17 14:26:24	--	MSG(Test): adios
+2024-01-17 14:26:25	--	MSG(Test): adios
+2024-01-17 14:26:25	--	MSG(Test): adios
+2024-01-17 14:29:23	=!=	irc: command "holaaaaaaaaaaa" not found: "holaaaaaaaaaaa"
+2024-01-17 14:29:29	--	MSG(OtherTest): adios
+2024-01-17 14:29:29	=!=	irc: command "holaaaaaaaaaaa" not found: "holaaaaaaaaaaa"
+2024-01-17 14:29:32	--	MSG(OtherTest): adios
+2024-01-17 14:29:32	=!=	irc: command "holaaaaaaaaaaa" not found: "holaaaaaaaaaaa"
+2024-01-17 14:29:36	--	MSG(Test): adios
+2024-01-17 14:30:08	--	irc: lag is high, reconnecting to server irc
+2024-01-17 14:30:08	--	irc: disconnected from server
+2024-01-17 14:30:08	--	irc: reconnecting to server in 10 seconds
+2024-01-17 14:30:11		irc: auto-reconnection is cancelled
+2024-01-17 14:30:11	--	irc: disconnected from server
+2024-01-17 14:31:22	--	irc: connecting to server localhost/6667...
+2024-01-17 14:31:22	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 14:31:22	--	Welcome to the <network> Network, <nick>[!<user>@<host>]
+2024-01-17 14:31:25	--	MSG(Test): adios
+2024-01-17 14:31:43	--	irc: disconnected from server
+2024-01-17 20:12:26	--	irc: connecting to server localhost/6667...
+2024-01-17 20:12:26	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 20:12:26	--	Welcome to the <network> Network, <nick>[!<user>@<host>]
+2024-01-17 20:12:50	=!=	irc: command "holaaaaaaaaaaa" not found: "holaaaaaaaaaaa"
+2024-01-17 20:18:26	--	irc: lag is high, reconnecting to server irc
+2024-01-17 20:18:26	--	irc: disconnected from server
+2024-01-17 20:18:26	--	irc: reconnecting to server in 10 seconds
+2024-01-17 20:18:36	--	irc: reconnecting to server...
+2024-01-17 20:18:36	--	irc: connecting to server localhost/6667...
+2024-01-17 20:18:36	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 20:18:36	--	<client> <command>  User already registred
+2024-01-17 20:19:36	=!=	irc: connection timeout (message 001 not received)
+2024-01-17 20:19:36	--	irc: disconnected from server
+2024-01-17 20:19:36	--	irc: reconnecting to server in 20 seconds
+2024-01-17 20:19:56	--	irc: reconnecting to server...
+2024-01-17 20:19:56	--	irc: connecting to server localhost/6667...
+2024-01-17 20:19:56	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 20:19:56	--	<client> <command>  User already registred
+2024-01-17 20:20:56	=!=	irc: connection timeout (message 001 not received)
+2024-01-17 20:20:56	--	irc: disconnected from server
+2024-01-17 20:20:56	--	irc: reconnecting to server in 40 seconds
+2024-01-17 20:21:36	--	irc: reconnecting to server...
+2024-01-17 20:21:36	--	irc: connecting to server localhost/6667...
+2024-01-17 20:21:36	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 20:21:36	--	<client> <command>  User already registred
+2024-01-17 20:22:36	=!=	irc: connection timeout (message 001 not received)
+2024-01-17 20:22:36	--	irc: disconnected from server
+2024-01-17 20:22:36	--	irc: reconnecting to server in 1 minute, 20 seconds
+2024-01-17 20:23:56	--	irc: reconnecting to server...
+2024-01-17 20:23:56	--	irc: connecting to server localhost/6667...
+2024-01-17 20:23:56	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 20:23:56	--	<client> <command>  User already registred
+2024-01-17 20:24:56	=!=	irc: connection timeout (message 001 not received)
+2024-01-17 20:24:56	--	irc: disconnected from server
+2024-01-17 20:24:56	--	irc: reconnecting to server in 2 minutes, 40 seconds
+2024-01-17 20:27:36	--	irc: reconnecting to server...
+2024-01-17 20:27:36	--	irc: connecting to server localhost/6667...
+2024-01-17 20:27:36	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 20:27:36	--	<client> <command>  User already registred
+2024-01-17 20:28:36	=!=	irc: connection timeout (message 001 not received)
+2024-01-17 20:28:36	--	irc: disconnected from server
+2024-01-17 20:28:36	--	irc: reconnecting to server in 5 minutes, 20 seconds
+2024-01-17 20:33:56	--	irc: reconnecting to server...
+2024-01-17 20:33:56	--	irc: connecting to server localhost/6667...
+2024-01-17 20:33:56	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 20:33:56	--	<client> <command>  User already registred
+2024-01-17 20:34:56	=!=	irc: connection timeout (message 001 not received)
+2024-01-17 20:34:56	--	irc: disconnected from server
+2024-01-17 20:34:56	--	irc: reconnecting to server in 10 minutes
+2024-01-17 20:44:56	--	irc: reconnecting to server...
+2024-01-17 20:44:56	--	irc: connecting to server localhost/6667...
+2024-01-17 20:44:56	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 20:44:56	--	<client> <command>  User already registred
+2024-01-17 20:45:56	=!=	irc: connection timeout (message 001 not received)
+2024-01-17 20:45:56	--	irc: disconnected from server
+2024-01-17 20:45:56	--	irc: reconnecting to server in 10 minutes
+2024-01-17 20:55:56	--	irc: reconnecting to server...
+2024-01-17 20:55:56	--	irc: connecting to server localhost/6667...
+2024-01-17 20:55:56	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 20:55:56	--	<client> <command>  User already registred
+2024-01-17 20:56:56	=!=	irc: connection timeout (message 001 not received)
+2024-01-17 20:56:56	--	irc: disconnected from server
+2024-01-17 20:56:56	--	irc: reconnecting to server in 10 minutes
+2024-01-17 21:06:56	--	irc: reconnecting to server...
+2024-01-17 21:06:56	--	irc: connecting to server localhost/6667...
+2024-01-17 21:06:56	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-17 21:06:56	--	<client> <command>  User already registred
+2024-01-17 21:07:56	=!=	irc: connection timeout (message 001 not received)
+2024-01-17 21:07:56	--	irc: disconnected from server
+2024-01-17 21:07:56	--	irc: reconnecting to server in 10 minutes
+2024-01-18 08:58:52	--	irc: connecting to server localhost/6667...
+2024-01-18 08:58:52	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 08:58:52	--	Welcome to the <network> Network, <nick>[!<user>@<host>]
+2024-01-18 08:59:14	--	MSG(Test): olaaaa
+2024-01-18 09:00:05	--	MSG(OtherTest): olaaaa
+2024-01-18 09:03:27	--	irc: disconnected from server
+2024-01-18 09:04:15	--	irc: connecting to server localhost/6667...
+2024-01-18 09:04:15	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 09:04:15	--	Welcome to the <network> Network, <nick>[!<user>@<host>]
+2024-01-18 09:10:16	--	irc: lag is high, reconnecting to server irc
+2024-01-18 09:10:16	--	irc: disconnected from server
+2024-01-18 09:10:16	--	irc: reconnecting to server in 10 seconds
+2024-01-18 09:10:26	--	irc: reconnecting to server...
+2024-01-18 09:10:26	--	irc: connecting to server localhost/6667...
+2024-01-18 09:10:26	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 09:10:26	--	<client> <command>  User already registred
+2024-01-18 09:11:26	=!=	irc: connection timeout (message 001 not received)
+2024-01-18 09:11:26	--	irc: disconnected from server
+2024-01-18 09:11:26	--	irc: reconnecting to server in 20 seconds
+2024-01-18 09:11:46	--	irc: reconnecting to server...
+2024-01-18 09:11:46	--	irc: connecting to server localhost/6667...
+2024-01-18 09:11:46	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 09:11:46	--	<client> <command>  User already registred
+2024-01-18 09:12:46	=!=	irc: connection timeout (message 001 not received)
+2024-01-18 09:12:46	--	irc: disconnected from server
+2024-01-18 09:12:46	--	irc: reconnecting to server in 40 seconds
+2024-01-18 09:12:52		irc: auto-reconnection is cancelled
+2024-01-18 09:12:52	--	irc: disconnected from server
+2024-01-18 11:17:45	--	irc: connecting to server localhost/6667...
+2024-01-18 11:17:45	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 11:17:45	--	Welcome to the <network> Network, <nick>[!<user>@<host>]
+2024-01-18 11:17:48	--	irc: disconnected from server
+2024-01-18 11:18:51	--	irc: connecting to server localhost/6667...
+2024-01-18 11:18:51	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 11:18:51	--	Welcome to the ft_irc_network Network, <nick>[!John@<host>]
+2024-01-18 11:19:54	--	irc: disconnected from server
+2024-01-18 11:35:32	--	irc: connecting to server localhost/6667...
+2024-01-18 11:35:32	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 11:35:32	--	Welcome to the ft_irc_network Network, <nick>[!John@<host>]
+2024-01-18 11:38:16	--	irc: disconnected from server
+2024-01-18 11:47:48	--	irc: connecting to server localhost/6667...
+2024-01-18 11:47:48	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 11:47:48	--	Welcome to the ft_irc_network Network, <nick>[!John@<host>]
+2024-01-18 11:50:48	--	irc: disconnected from server
+2024-01-18 11:51:02	--	irc: connecting to server localhost/6667...
+2024-01-18 11:51:02	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 11:51:02	--	Welcome to the ft_irc_network Network, <nick>[!John@<host>]
+2024-01-18 11:52:38	--	irc: disconnected from server
+2024-01-18 11:52:58	--	irc: connecting to server localhost/6667...
+2024-01-18 11:52:58	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 11:52:58	--	Welcome to the ft_irc_network Network, <nick>[!John@<host>]
+2024-01-18 11:54:01	--	irc: disconnected from server
+2024-01-18 11:54:12	--	irc: connecting to server localhost/6667...
+2024-01-18 11:54:12	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 11:54:12	--	Welcome to the ft_irc_network Network, <nick>[!John@<host>]
+2024-01-18 11:54:52	--	irc: disconnected from server
+2024-01-18 11:55:09	--	irc: connecting to server localhost/6667...
+2024-01-18 11:55:09	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 11:55:09	--	Welcome to the ft_irc_network Network, <nick>[!John@<host>]
+2024-01-18 11:56:50	--	irc: disconnected from server
+2024-01-18 11:57:48	--	irc: connecting to server localhost/6667...
+2024-01-18 11:57:48	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 11:57:48	--	Welcome to the ft_irc_network Network, <nick>[!John@<host>]
+2024-01-18 12:02:34	--	irc: connecting to server localhost/6667...
+2024-01-18 12:02:34	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-18 12:02:34	--	Welcome to the ft_irc_network Network, <nick>[!John@<host>]
+2024-01-18 12:07:28	--	irc: disconnected from server
+2024-01-20 13:07:30	--	irc: connecting to server localhost/6667...
+2024-01-20 13:07:30	--	irc: connected to localhost/6667 (127.0.0.1)
+2024-01-20 13:07:30	--	Welcome to the ft_irc_network Network, <nick>[!John@<host>]
+2024-01-20 13:10:32	=!=	irc: reading data on socket: error 4 (connection closed by peer)
+2024-01-20 13:10:32	--	irc: disconnecting from server...
+2024-01-20 13:10:32	--	irc: disconnected from server
+2024-01-20 13:10:32	--	irc: reconnecting to server in 10 seconds
+2024-01-20 13:10:42	--	irc: reconnecting to server...
+2024-01-20 13:10:42	--	irc: connecting to server localhost/6667...
+2024-01-20 13:10:42	=!=	irc: connection refused
+2024-01-20 13:10:42	--	irc: reconnecting to server in 20 seconds
+2024-01-20 13:10:46		irc: auto-reconnection is cancelled
+2024-01-20 13:10:46	--	irc: disconnected from server
